@@ -44,6 +44,11 @@ function ABMinit((p,q))
     return x, media, inf, FolInfNet, state, IndNet
 end
 
+"""
+    attraction(x, IndNet)
+
+Function that calculates attraction for the vector `x` with parameters...
+"""
 function attraction(x, IndNet)
     n = size(IndNet, 1)
     force = zeros(n,2)
