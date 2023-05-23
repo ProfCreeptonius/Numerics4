@@ -1,5 +1,6 @@
+#=
 using Plots
-pyplot()
+# pyplot()
 
 
 colors_followers = [ "#44AA99"  "#DDCC77"  "#CC6677" "#88CCEE"  ] 
@@ -404,3 +405,4 @@ function plotensemblesnapshots(us, zs, ys, (p,q), us2, zs2, ys2, (p2,q2), tmax; 
     end
 end
 
+=#
