@@ -1,5 +1,5 @@
-#=
 using Plots
+using LaTeXStrings
 # pyplot()
 
 
@@ -404,5 +404,3 @@ function plotensemblesnapshots(us, zs, ys, (p,q), us2, zs2, ys2, (p2,q2), tmax; 
         savefig(string("img/ensemblesnapshots_",name,".pdf"))
     end
 end
-
-=#
