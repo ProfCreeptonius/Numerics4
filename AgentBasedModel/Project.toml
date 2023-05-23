@@ -1,0 +1,4 @@
+name = "AgentBasedModel"
+uuid = "92fc472d-18b2-4f84-bb62-ff45ef5df20e"
+authors = ["Alonso Martínez Cisneros <alonso.mtz99@gmail.com>"]
+version = "0.1.0"
